@@ -112,3 +112,6 @@
 [submodule "pack/buildgroundwork/start/vim-rbenv"]
 	path = pack/buildgroundwork/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git
+[submodule "pack/buildgroundwork/start/emmet-vim"]
+	path = pack/buildgroundwork/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
