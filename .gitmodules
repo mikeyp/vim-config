@@ -115,3 +115,6 @@
 [submodule "pack/buildgroundwork/start/fzf"]
 	path = pack/buildgroundwork/start/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "pack/buildgroundwork/start/emmet-vim"]
+	path = pack/buildgroundwork/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
