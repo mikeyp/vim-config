@@ -1,0 +1,2 @@
+set updatetime=100
+
