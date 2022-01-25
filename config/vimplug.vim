@@ -1,6 +1,7 @@
 " Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
+  \| PlugClean | source $MYVIMRC
 \| endif
 
 call plug#begin()
@@ -23,8 +24,8 @@ Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dispatch'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'scrooloose/nerdcommenter'
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
 Plug 'nelstrom/vim-textobj-rubyblock' | Plug 'kana/vim-textobj-user'
 Plug 'jgdavey/vim-blockle'
 Plug 'airblade/vim-gitgutter'
@@ -36,11 +37,10 @@ Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'dense-analysis/ale'
 Plug 'janko/vim-test'
-Plug 'SirVer/ultisnips'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'sjl/vitality.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+Plug 'kevinoid/vim-jsonc'
 
 " Initialize plugin system
 call plug#end()

@@ -57,7 +57,7 @@ map <F1>            <Nop>
 imap <F1>           <Nop>
 
 " Global search
-map <leader>a :FzfRg<CR>
+map <leader>r :FzfRg<CR>
 
 " Recalculate diff when it gets messed up.
 nmap du :diffupdate<CR>
@@ -69,8 +69,10 @@ map <leader>u :UndotreeToggle<CR> :UndotreeFocus<CR>
 let g:blockle_mapping = '<leader>l'
 
 " Unmap arrow keys for happy wrists
-inoremap  <Up>     <NOP>
-inoremap  <Down>   <NOP>
-inoremap  <Left>   <NOP>
-inoremap  <Right>  <NOP>
+" inoremap  <Up>     <NOP>
+" inoremap  <Down>   <NOP>
+" inoremap  <Left>   <NOP>
+" inoremap  <Right>  <NOP>
 
+" Don't rely on escape key
+inoremap jj <esc>

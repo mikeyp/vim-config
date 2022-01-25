@@ -1,5 +1,6 @@
 " See ~/.vim/ftplugin/* for filetype-specific configuration
 
+let g:ale_disable_lsp = 1
 let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
 
 " Enable completion where available.
@@ -16,3 +17,5 @@ nmap <silent> <C-J> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 cnoreabbrev alf ALEFix
+
+
