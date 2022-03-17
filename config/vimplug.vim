@@ -41,6 +41,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'sjl/vitality.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
+Plug 'junegunn/vim-emoji'
 
 " Initialize plugin system
 call plug#end()

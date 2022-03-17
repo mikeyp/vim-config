@@ -27,3 +27,5 @@ if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
 
+autocmd VimEnter * echo "Mike's config!"
+
