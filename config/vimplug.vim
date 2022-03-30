@@ -42,6 +42,7 @@ Plug 'sjl/vitality.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
 Plug 'junegunn/vim-emoji'
+Plug 'vim-vdebug/vdebug'
 
 " Initialize plugin system
 call plug#end()
