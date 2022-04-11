@@ -9,7 +9,8 @@ let g:coc_global_extensions = [
       \'coc-phpls',
       \'coc-git',
       \'coc-snippets',
-      \'coc-lua'
+      \'coc-lua',
+      \'coc-prisma'
       \]
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
